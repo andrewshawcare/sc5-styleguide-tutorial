@@ -23,9 +23,19 @@
 //
 // markup:
 // <div class="eg-grid">
-//   <div class="eg-grid__item-1-1">
+//   <div class="eg-grid__item-2-3">
 //     <h1 class="eg-page-heading">Page Title</h1>
 //     <p class="eg-paragraph">Explanation of the purpose of the page.</p>
+//   </div>
+//   <div class="eg-grid__item-1-3">
+//     <div class="eg-grid">
+//       <div class="eg-grid__item-2-3">
+//         <input class="eg-input"/>
+//       </div>
+//       <div class="eg-grid__item-1-3">
+//         <button class="eg-button">Search</button>
+//       </div>
+//     </div>
 //   </div>
 // </div>
 //
