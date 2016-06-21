@@ -272,6 +272,10 @@
 // Styleguide 1.5
 
 .eg-input {
+  width: 100%;
+  border: 1px solid $eg-color-brown;
+  margin: $eg-spacings/2 0;
+  box-sizing: border-box;
   font-size: 1rem;
   padding: $eg-spacings/2;
 
@@ -303,6 +307,8 @@
 // Styleguide 1.6
 
 .eg-button {
+  width: 100%;
+  margin: $eg-spacings/2 0;
   padding: $eg-spacings/2;
   border: none;
   font-size: 1rem;
