@@ -124,6 +124,28 @@
 //   <div class="eg-grid__item-1-2">
 //     <div class="styleguide-placeholder">1-2 placeholder 3</div>
 //   </div>
+//   <div class="eg-grid__item-1-2">
+//     <div class="styleguide-placeholder">1-2 placeholder 4</div>
+//   </div>
+//   <div class="eg-grid__item-1-3">
+//     <div class="styleguide-placeholder">1-3 placeholder 1</div>
+//   </div>
+//   <div class="eg-grid__item-2-3">
+//     <div class="styleguide-placeholder">2-3 placeholder 1</div>
+//   </div>
+//   <div class="eg-grid__item-2-3">
+//     <div class="styleguide-placeholder">2-3 placeholder 2</div>
+//   </div>
+//   <div class="eg-grid__item-1-3">
+//     <div class="styleguide-placeholder">1-3 placeholder 2</div>
+//   </div>
+//   <div class="eg-grid__item-1-3">
+//     <div class="styleguide-placeholder">1-3 placeholder 3</div>
+//   </div>
+//   <div class="eg-grid__item-2-3">
+//     <div class="styleguide-placeholder">2-3 placeholder 3</div>
+//   </div>
+//
 // </div>
 //
 // sg-wrapper:
@@ -150,6 +172,14 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+  }
+
+  .eg-grid__item-2-3 {
+    width: 66.66%
+  }
+
+  .eg-grid__item-1-3 {
+    width: 33.33%;
   }
 
   .eg-grid__item-1-2 {
