@@ -294,4 +294,21 @@
 // are looking at a printout have a way of seeing what it would look like
 // (tip: for a similar example, take a look at the focus state in chapter 1.5)
 //
+// Default - the interactive default state
+// :hover - the state when the button is hovered over
+//
+// markup:
+// <button class="eg-button {$modifiers}">Click me!</button>
+//
 // Styleguide 1.6
+
+.eg-button {
+  padding: $eg-spacings/2;
+  border: none;
+  font-size: 1rem;
+  background-color: $eg-color-cyan;
+
+  &:hover {
+    background-color: darken($eg-color-cyan, 25%);
+  }
+}
