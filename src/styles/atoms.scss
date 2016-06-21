@@ -272,11 +272,11 @@
 // Styleguide 1.5
 
 .eg-input {
-
-  // default styling goes here
+  font-size: 1rem;
+  padding: $eg-spacings/2;
 
   &:focus {
-    // focus specific definitions go here
+    background-color: $eg-color-orange;
   }
 }
 
